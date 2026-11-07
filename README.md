@@ -48,6 +48,10 @@ The app uses **Google Gemini** through its REST API, with structured JSON output
 
 Inputs from users are treated as data in every prompt. AI calls are rate limited per browser so a public demo cannot use up the quota.
 
+## Sponsor tools
+
+**Render** hosts the live demo at https://trustflow-ai-atyd.onrender.com. The repository includes a `render.yaml` Blueprint, so the whole app deploys to Render in one click: Render runs `npm install` and `npm start`, checks the `/healthz` endpoint, and redeploys automatically on every push to `main`. PayPal and Gemini keys are stored as Render environment variables, never in the code.
+
 ## Try it as a judge
 
 1. Open the live demo. Press **Bakery website, $900** to load an example instantly, or paste your own deal and press **Check my agreement**.
