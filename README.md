@@ -2,8 +2,8 @@
 
 **AI turns a freelance deal written in everyday words into milestones with clear checks. PayPal holds each payment and releases it only when the client approves the work.**
 
-- Live demo: `https://YOUR-APP.onrender.com` *(free hosting; the first load after a quiet period can take about a minute)*
-- Demo video: `https://youtu.be/YOUR-VIDEO`
+- **Live demo:** https://trustflow-ai-atyd.onrender.com *(free hosting: the first load after a quiet period can take about a minute)*
+- **Demo video (2:47):** https://youtu.be/fHU8RHcs9uI
 
 ## The problem
 
@@ -60,8 +60,8 @@ Inputs from users are treated as data in every prompt. AI calls are rate limited
 
 **PayPal sandbox buyer** (test money only)
 
-- Email: `YOUR-SANDBOX-BUYER-EMAIL`
-- Password: `YOUR-SANDBOX-BUYER-PASSWORD`
+- Email: `sb-qjjtc53768978@personal.example.com`
+- Password: `o,$Pq9lW`
 
 Each browser gets a private workspace, so judges do not see each other’s agreements.
 
@@ -94,7 +94,7 @@ Data is kept in a JSON file. On Render’s free plan the disk resets when the se
 
 ### Webhooks (optional)
 
-In the PayPal Developer Dashboard open your app, add a webhook with the URL `https://YOUR-APP.onrender.com/api/webhooks/paypal`, and select the events listed above. Copy the webhook id into `PAYPAL_WEBHOOK_ID`. Without webhooks, the **Refresh from PayPal** button and the agent read the same status on demand.
+In the PayPal Developer Dashboard open your app, add a webhook with the URL `https://trustflow-ai-atyd.onrender.com/api/webhooks/paypal`, and select the events listed above. Copy the webhook id into `PAYPAL_WEBHOOK_ID`. Without webhooks, the **Refresh from PayPal** button and the agent read the same status on demand.
 
 ## Tests
 
