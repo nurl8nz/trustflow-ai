@@ -1,0 +1,17 @@
+{
+  "name": "trustflow-ai",
+  "version": "1.0.0",
+  "description": "AI turns informal freelance agreements into clear milestones; PayPal holds each payment and releases it only when the client approves the work.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/flow.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["paypal", "gemini", "ai-agent", "freelance", "milestones", "escrow-style"],
+  "license": "MIT"
+}
