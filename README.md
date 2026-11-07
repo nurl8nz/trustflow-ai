@@ -78,7 +78,7 @@ npm start                 # http://localhost:3000
 |---|---|
 | `PAYPAL_CLIENT_ID`, `PAYPAL_CLIENT_SECRET` | [PayPal Developer Dashboard](https://developer.paypal.com/dashboard/) → Apps & Credentials → Sandbox → your app. Under the app’s **Features**, keep **Invoicing** enabled. |
 | `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/) → Get API key |
-| `GEMINI_MODEL` | Defaults to `gemini-3.8-flash` |
+| `GEMINI_MODEL` | Defaults to `gemini-3.5-flash-lite`, which answers in a few seconds. Any Gemini model with structured output and function calling works. |
 | `DEMO_CLIENT_EMAIL` *(optional)* | Your sandbox Personal account email, prefilled as the invoice recipient |
 | `PAYPAL_WEBHOOK_ID` *(optional)* | See webhooks below |
 

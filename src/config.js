@@ -22,7 +22,7 @@ export const config = Object.freeze({
   }),
   gemini: Object.freeze({
     apiKey: clean(env.GEMINI_API_KEY),
-    model: clean(env.GEMINI_MODEL) || 'gemini-3.8-flash',
+    model: clean(env.GEMINI_MODEL) || 'gemini-3.5-flash-lite',
     apiBase: clean(env.GEMINI_API_BASE) || 'https://generativelanguage.googleapis.com',
   }),
   demo: Object.freeze({
